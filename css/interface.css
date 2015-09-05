@@ -1,0 +1,51 @@
+body {
+	background-image: url("http://i.huffpost.com/gen/1742960/images/o-EMPTY-CLASSROOM-facebook.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+/* BODY CONTENTS ; LOGIN PANEL*/
+	#login-form{
+		width: 50%;
+		margin: auto;
+		margin-top: 10%;
+		border-radius: 2%;
+		background-color: rgba(0,0,0,0.5);
+		color: #FFFFE7;
+		font-family: roboto;
+		font-size: 20px;
+		text-align: center;
+
+	}
+
+	#login-form h1{
+		font-family: built-titling;
+		font-size: 50px;
+		letter-spacing: 3px;
+		padding-top: 20px;
+		color: #C9C5CB;
+	}
+
+	#login-form a{
+		color: #FFFFE7;
+		font-family: Roboto-Bold;
+	}
+
+	#login-form a:hover{
+		color: #C9C5CB;
+		text-decoration: none;
+	}
+
+	#login-contents{
+		margin: 10px 0px 10px 0;
+		padding: 10px 30px 30px 30px;
+	}
+
+	.custom{
+		width: 75%;
+	}
+
+	#not-a-member{
+		font-size: 17px;
+	}
