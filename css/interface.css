@@ -49,3 +49,30 @@ body {
 	#not-a-member{
 		font-size: 17px;
 	}
+	
+input[type="text"], input[type="password"] {
+	color: black;
+	padding: 0.4%;
+}
+
+legend {
+	border: 0;
+}
+section.form-section {
+	padding:2%;
+	width:80%;
+	margin:auto;
+	margin-top: 1%;
+	border-radius: 2%;
+	background-color: rgba(79,77,80,0.5);
+	color: #FFFFE7;
+	font-family: roboto;
+	font-size: 20px;
+}
+
+.form-section > h1 {
+	font-family: built-titling;
+	font-size: 50px;
+	letter-spacing: 3px;
+	color: white;
+}
