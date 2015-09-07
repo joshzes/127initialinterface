@@ -56,6 +56,8 @@ input[type="text"], input[type="password"] {
 }
 
 legend {
+	font-family: roboto-bold;
+	color: #FFFFE7;
 	border: 0;
 }
 section.form-section {
@@ -75,4 +77,12 @@ section.form-section {
 	font-size: 50px;
 	letter-spacing: 3px;
 	color: white;
+}
+div.form-element > label {
+	font-family: roboto-bold;
+	width: 100%;
+}
+
+div.form-element {
+	padding-bottom:1%;
 }

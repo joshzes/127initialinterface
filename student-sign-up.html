@@ -29,7 +29,7 @@
 			<hr>
 			
 			<form>
-				<div id="name-form">
+				<div class="form-element" id="name-form">
 					<fieldset>
 						<legend><strong>Name</strong></legend>
 						<label>
@@ -44,38 +44,45 @@
 							Last Name
 							<input type="text" name="last-name">
 						</label>
-						<br />
-						<label>
-							Email &emsp; &emsp; &emsp;
-							<input type="email" name="e-mail">
-						</label>
-						<br />
-						<label>
-							Password &emsp; &emsp; &emsp;
-							<input type="password" name="password">
-						</label>
-						<br />
-						<label> 
-							Birthday &emsp; &emsp; &emsp;
-							<input type="date" name="b-day">
-						</label>
-						<br />
-						<label>
-							Student Number &emsp; &emsp;
-							<input type="text" name="stdno">
-						</label>
-						<br />
-						<label>
-							Department  &emsp; &emsp; &emsp;
-							<input type="text" name="department">
-						</label>
-						<label>
-							Degree &emsp; &emsp; &emsp;
-							<input type="text" name="degree">
-						</label>
-						<button type="button" class="btn btn-primary custom">Sign-up</button>
 					</fieldset>
 				</div>
+				<div class="form-element" id="email-form">
+					<label>
+						Email
+					</label>
+					<input type="email" name="e-mail">
+				</div>
+				<div class="form-element" id="password-form">
+					<label>
+						Password 
+					</label>
+					<input type="password" name="password">
+				</div>
+				<div class="form-element" id="b-day-form">
+					<label> 
+						Birthday 
+					</label>
+					<input type="date" name="b-day">
+				</div>
+				<div class="form-element" id="stdno-form">
+					<label>
+						Student Number 
+					</label>
+					<input type="text" name="stdno">
+				</div>
+				<div class="form-element" id="department-form">
+					<label>
+						Department
+					</label>
+					<input type="text" name="department">
+				</div>
+				<div class="form-element" id="degree-form">
+					<label>
+						Degree
+					</label>
+					<input type="text" name="degree">
+				</div>
+					<button type="submit" class="btn btn-primary custom">Sign-up</button>
 			</form>
 		</section>
 	</body>
