@@ -49,3 +49,25 @@ body {
 	#not-a-member{
 		font-size: 17px;
 	}
+
+	#side-panel{
+		margin-top: 2%;
+		border-radius: 2%;
+		border: 2px;
+		width: 25%;
+		background-color: rgba(201,197,203,0.5);
+		float: left;
+		padding: 2%;
+	}
+	
+	#post-panel, #req-panel{
+		margin-top: 2%;
+		border-radius: 2%;
+		float: right;
+		border: 3px;
+		width: 70%;
+		background-color: rgba(255,255,231,0.3);
+		padding: 2%;
+		
+	}
+	
