@@ -1,71 +1,55 @@
 /* FONTS */
-	@font-face {
-		font-family: built-titling;
-		src: url("../fonts/built-titling-rg.ttf");
-	}
+@font-face {
+  font-family: built-titling;
+  src: url("../fonts/built-titling-rg.ttf"); }
+@font-face {
+  font-family: built-titling-bold;
+  src: url("../fonts/built-titling-bd.ttf"); }
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/Roboto-Thin.ttf"); }
+@font-face {
+  font-family: roboto-bold;
+  src: url("../fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: basic-title-font;
+  src: url("../fonts/basictitlefont.ttf"); }
+header {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.5%;
+  font-size: 40px;
+  font-family: built-titling-bold;
+  letter-spacing: 3px; }
+  header #page-title {
+    float: left; }
+    header #page-title a {
+      color: #7D3238;
+      text-decoration: none; }
+  header #option {
+    float: right; }
+    header #option button {
+      font-family: built-titling;
+      letter-spacing: 2px;
+      font-size: 20px;
+      background-color: #C9C5CB;
+      margin-left: 30px; }
 
-	@font-face {
-		font-family: built-titling-bold;
-		src: url("../fonts/built-titling-bd.ttf");
-	}
+div#content {
+  padding: 10px; }
 
-	@font-face {
-		font-family: roboto;
-		src: url("../fonts/Roboto-Thin.ttf");
-	}
+div.sidebar {
+  padding: 10px;
+  border-radius: 5%;
+  background-color: rgba(255, 255, 255, 0.7); }
+  div.sidebar hr.separator {
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 2px; }
 
-	@font-face {
-		font-family: roboto-bold;
-		src: url("../fonts/Roboto-Regular.ttf");
-	}
+img.user-photo {
+  border-radius: 20%;
+  width: 70px; }
 
-	@font-face {
-		font-family: basic-title-font;
-		src: url("../fonts/basictitlefont.ttf");
-	}
-
-/* HEADER */
-	header {
-		background-color: rgba(255, 255, 255, 0.7);
-		padding: 0.5%;
-	}
-	#nav-bar{
-		font-size: 40px;
-		font-family: built-titling-bold;
-		letter-spacing: 3px;
-	}
-
-	#page-title a{
-		color: rgb(125,50,56);
-		text-decoration: none;
-	}
-
-	#page-title{
-		float:left;
-	}
-
-	#option{
-		float: right;
-	}
-
-	#option button{
-		font-family: built-titling;
-		letter-spacing: 2px;
-		font-size: 20px;
-		background-color: rgba(201,197,203,0.9);
-		margin-left: 30px;
-	}
-
-/* FOOTER */
-	/*
-	#footer{
-		background-color: #333D38;
-		color: #FFFFE7;
-		font-family: roboto;
-		text-align: center;
-	    position: absolute;
-    	left: 0px;
-    	right: 0px;
-    	bottom: 0px;
-	}
-	*/
+/*# sourceMappingURL=default2.css.map */
