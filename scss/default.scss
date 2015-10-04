@@ -4,6 +4,7 @@ $white: #FFFFE7;
 $maroon: #7D3238;
 $dark-gray: #333D38;
 $green: #0D3824;
+$block-radius: 10px;
 
 /* FONTS */
 @font-face {
@@ -29,6 +30,15 @@ $green: #0D3824;
 @font-face {
 	font-family: basic-title-font;
 	src: url("../fonts/basictitlefont.ttf");
+}
+
+body {
+	background-image: none;
+	background-color: $light-gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:$maroon;
 }
 
 header {
@@ -66,15 +76,23 @@ div#content {
 
 div.sidebar {
 	padding: 10px;
-	border-radius: 5%;
+	border-radius: $block-radius;
 	background-color: $block-bg;
 
-	hr.separator {
-		margin: 0;
-		margin-left:10%;
-		margin-right:10%;
-		width: 80%;
-		height: 2px;
+	nav {
+		margin: 10px 0;
+		div {
+			margin: 10px 0px;
+		}
+		a {
+			display: block;
+		}
+		hr.separator {
+			margin: 0 10%;
+			width: 80%;
+			background: $white;
+			height: 1px
+		}
 	}
 }
 
