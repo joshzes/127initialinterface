@@ -34,6 +34,7 @@ $block-radius: 10px;
 
 body {
 	background-image: none;
+	color: $dark-gray;
 	background-color: $light-gray;
 }
 
@@ -47,6 +48,13 @@ header {
 	font-size: 40px;
 	font-family: built-titling-bold;
 	letter-spacing: 3px;
+
+	span#display-name {
+		height:80%;
+		margin: 10% 10px;
+		font-size: 20px;
+	}
+
 
 	#page-title {
 		float:left;

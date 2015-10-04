@@ -16,6 +16,7 @@
   src: url("../fonts/basictitlefont.ttf"); }
 body {
   background-image: none;
+  color: #333D38;
   background-color: #C9C5CB; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +28,10 @@ header {
   font-size: 40px;
   font-family: built-titling-bold;
   letter-spacing: 3px; }
+  header span#display-name {
+    height: 80%;
+    margin: 10% 10px;
+    font-size: 20px; }
   header #page-title {
     float: left; }
     header #page-title a {
