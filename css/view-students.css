@@ -22,7 +22,7 @@ h2{
 
 #info-panel h3, h4, h5{
 	color: #FFFFE7;
-	font-family: Roboto-Bold;
+	font-family: roboto-bold;
 }
 
 #student-panel{
@@ -57,7 +57,7 @@ h2{
 	background: rgba(0,0,0,0.4); 
 }
 
-#student-panel td{
+#student-panel td, th{
 	font-family: basic-title-font;
 	font-size: 23px;
 	color: #FFFFE7;
@@ -89,4 +89,15 @@ table{
 .custom{
 	margin-left: 22%;
 	width: 78%;
+}
+
+#smaller{
+	font-size: 16px;
+	vertical-align: top;
+	color: white;
+	font-family: roboto;
+}
+
+#exers th, #exers td{
+	text-align: center;
 }

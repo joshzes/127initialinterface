@@ -48,3 +48,11 @@ a:hover{
 	text-decoration: none;
 }
 
+#smaller{
+	font-size: 14px;
+	vertical-align: top;
+}
+
+input{
+	margin: 0 auto;
+}
