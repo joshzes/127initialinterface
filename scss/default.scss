@@ -49,7 +49,18 @@ header {
 }
 
 div#content {
-	padding: 10px;
+}
+
+.inline {
+	display: inline;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
 }
 
 .content-holder {
@@ -57,9 +68,9 @@ div#content {
 	border-radius: $block-radius;
 	background-color: $block-bg;
 }
-
+.sidebar {
+	margin: 10px 0;
 	nav {
-		margin: 10px 0;
 		div {
 			margin: 10px 0px;
 		}
@@ -73,6 +84,7 @@ div#content {
 			height: 1px;
 		}
 	}
+}
 
 img.user-photo {
 	border-radius: 20%;

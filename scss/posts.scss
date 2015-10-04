@@ -1,6 +1,10 @@
 @import 'colors';
 @import 'blocks';
 
+#post-stream {
+	padding: 10px;
+}
+
 article.post {
 	background-color: $block-bg;
 	border-radius: $block-radius;

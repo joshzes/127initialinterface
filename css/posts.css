@@ -2,6 +2,9 @@
   background-color: rgba(79, 77, 80, 0.5);
   color: #FFFFE7; }
 
+#post-stream {
+  padding: 10px; }
+
 article.post {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
