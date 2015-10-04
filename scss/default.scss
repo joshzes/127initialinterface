@@ -52,13 +52,12 @@ div#content {
 	padding: 10px;
 }
 
-div.content-holder {
+.content-holder {
 	padding: 10px;
 	border-radius: $block-radius;
 	background-color: $block-bg;
 }
 
-div.sidebar {
 	nav {
 		margin: 10px 0;
 		div {
@@ -67,14 +66,13 @@ div.sidebar {
 		a {
 			display: block;
 		}
-		hr.separator {
+		hr {
 			margin: 0 10%;
 			width: 80%;
-			background: $white;
-			height: 1px
+			background: $green;
+			height: 1px;
 		}
 	}
-}
 
 img.user-photo {
 	border-radius: 20%;

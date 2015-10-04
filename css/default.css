@@ -53,21 +53,21 @@ header {
 div#content {
   padding: 10px; }
 
-div.content-holder {
+.content-holder {
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.7); }
 
-div.sidebar nav {
+nav {
   margin: 10px 0; }
-  div.sidebar nav div {
+  nav div {
     margin: 10px 0px; }
-  div.sidebar nav a {
+  nav a {
     display: block; }
-  div.sidebar nav hr.separator {
+  nav hr {
     margin: 0 10%;
     width: 80%;
-    background: #FFFFE7;
+    background: #0D3824;
     height: 1px; }
 
 img.user-photo {
