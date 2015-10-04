@@ -1,36 +1,6 @@
-$block-bg: rgba(255, 255, 255, 0.7);
-$light-gray: #C9C5CB;
-$white: #FFFFE7;
-$maroon: #7D3238;
-$dark-gray: #333D38;
-$green: #0D3824;
-$block-radius: 10px;
-
-/* FONTS */
-@font-face {
-	font-family: built-titling;
-	src: url("../fonts/built-titling-rg.ttf");
-}
-
-@font-face {
-	font-family: built-titling-bold;
-	src: url("../fonts/built-titling-bd.ttf");
-}
-
-@font-face {
-	font-family: roboto;
-	src: url("../fonts/Roboto-Thin.ttf");
-}
-
-@font-face {
-	font-family: roboto-bold;
-	src: url("../fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-	font-family: basic-title-font;
-	src: url("../fonts/basictitlefont.ttf");
-}
+@import 'colors';
+@import 'blocks';
+@import 'fonts';
 
 body {
 	background-image: none;
@@ -82,11 +52,13 @@ div#content {
 	padding: 10px;
 }
 
-div.sidebar {
+div.content-holder {
 	padding: 10px;
 	border-radius: $block-radius;
 	background-color: $block-bg;
+}
 
+div.sidebar {
 	nav {
 		margin: 10px 0;
 		div {
@@ -108,3 +80,5 @@ img.user-photo {
 	border-radius: 20%;
 	width: 70px;
 }
+
+
