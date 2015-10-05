@@ -3,7 +3,14 @@
   color: #FFFFE7; }
 
 #post-stream {
-  padding: 10px; }
+  border-radius: 5px;
+  margin: 3% 0 3% 0;
+  padding-top: 0;
+}
+
+#post-stream article{
+  background-color: rgba(51, 61, 56, 0.8);
+}
 
 article.post {
   background-color: rgba(79, 77, 80, 0.5);
@@ -13,10 +20,12 @@ article.post {
   article.post img.user-photo {
     margin-top: 10px; }
   article.post section.post-body h1 {
+    margin-left: 10px;
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px; }
   article.post section.post-body hr {
+    margin-left: 10px;
     width: 90%;
     height: 1px;
     border: 0;
@@ -24,3 +33,16 @@ article.post {
     margin-right: 10%; }
 
 /*# sourceMappingURL=dark-posts.css.map */
+
+.post-photo{
+  border-radius: 10px;
+  width: 150%;
+  margin: -9% 0 -15px -25px;
+  padding: 30% 0 30% 0;
+  opacity: 0.7;
+  background-color: rgba(255, 255, 243, 0.2);
+}
+
+p{
+  margin-left: 10px;
+}

@@ -19,9 +19,7 @@
   font-family: basic-title-font;
   src: url("../fonts/basictitlefont.ttf"); }
 body {
-  background-image: none;
   color: #C9C5CB;
-  background-color: #333D38;
   font-family: roboto;
   font-weight: bold; }
 

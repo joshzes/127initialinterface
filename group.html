@@ -2,57 +2,77 @@
 <html>
 
 	<head>
-		<title> Group </title>
+		<title> View File</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/dark-default.css">
-		<link rel="stylesheet" type="text/css" href="css/interface.css">
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" type="text/css" href="css/view-file.css">
 	</head>
 
 	<body>
 	<!-- header -->
 		<header class="wrapping-panel">
 			<div class="container">
-				<div class="col-md-12" id="nav-bar">
-					<span clas="col-md-6" id="page-title">
-						<a href="groups.html" title="Home">
-						<span class="glyphicon glyphicon-book"></span>
-						lorem Ipsum</a>
-					</span>
-					<span class="col-md-6" id="option">
-						<button type="button" class="btn btn-default btn-md">Username</button>
-						<button type="button" class="btn btn-default btn-md">Logout</button>	
-					</span>
-				</div>
+				<span clas="col-md-6" id="page-title">
+					<a href="interface.html" title="Home">
+					<span class="glyphicon glyphicon-book"></span>
+					lorem Ipsum</a>
+				</span>
+				<span class="col-md-6 text-right" id="option">
+					<span id="display-name">Joshze Rica Esguerra</span>
+					<button type="button" class="btn btn-default btn-md">Logout</button>
+				</span>
 			</div>
-		</header>
+		</header>	
 		<div class="wrapping-panel">
 		<div class="container">
-			<div id="side-panel">
-				<h2>GROUP NAME</h2>
+			<div class="col-md-3" id="info-panel">
+				<h3>CMSC 127</h3>
+				<h4>File Processing and Database Systems</h4>
+				<h5>ST-1L</h5>
+				<h5>Mary Grace Primavera-Angeles</h5>
 				<hr>
-				<sub>Group Description</sub>
+				<h4>Code: qx67ykh3</h4>
 				<hr>
-				<a href="" title="View Students">View Students</a><br />
-				<a href="" title="View Files">View Files</a>
+				<h5><a href="create-group.html">Unenroll</a></h5>
+				<h5><a href="view-students.html">View Students</a></h5>
+				<br />
 			</div>
-			<div id="post-panel">
-				<h3>Post</h3>
+			<div class="col-md-8" id="file-panel">
+				<h2>CMSC 127 ST-1L</h2>
 				<hr>
+				<div>
+				<p>Say something...</p>
 				<form>
-					<textarea rows="4" cols="70" placeholder="What's on your mind?"></textarea><br />
-					<input type="button" name="submit-post" value="POST"/>
+					<textarea rows="4" cols="86" placeholder="What's on your mind?"></textarea><br />
+					<br />
+				<div id="post-group">
+				<input type="file" name="exer" class="btn btn-link">
+				<button type="submit" name="create-group" formaction="group.html" class="btn btn-primary btn-md">Post to group</button>
+				</div>
 				</form>
-			</div>
-			<div id="req-panel">
-				<p>
-				<h3>Requirements</h3>
-				There are no requirements due soon.
-				</p>
+				</div>
+				<div id="feed-group">
+				<article class="row post">
+						<section class="col-md-10 post-body">
+							<h3>Announcement</h3>
+							<hr />
+							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In sagittis eget ipsum ut consequat. Aliquam vel mauris et mauris faucibus accumsan a a lorem. Fusce malesuada bibendum semper. Aenean venenatis non dolor non lobortis. Nunc ornare finibus mi.
+							</p>
+						</section>
+					</article>
+					<article class="row post">
+						<section class="col-md-10 post-body">
+							<h3><a href="view-file.html">1st Exam Slides</a></h3>
+							<hr />
+							<p>The schedule for the FIRST LONG EXAM is on October 26, 2015, 7:00 PM - 9:00 PM at the ICS Mega Lecture Hall.</p>
+							<p>All the lecture slides for the first long exam are included in this file.</p>
+						</section>
+				</article>
+				</div>
 			</div>
 		</div>
 		</div>
-		
 	</body>
 
 </html>

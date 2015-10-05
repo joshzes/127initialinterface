@@ -1,3 +1,9 @@
+body {
+  background-image: url("../img/classroom.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
 .dark-block {
   background-color: rgba(79, 77, 80, 0.5);
   color: #FFFFE7; }
@@ -18,10 +24,6 @@
 @font-face {
   font-family: basic-title-font;
   src: url("../fonts/basictitlefont.ttf"); }
-body {
-  background-image: none;
-  color: #333D38;
-  background-color: #C9C5CB; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #7D3238; }
@@ -81,3 +83,30 @@ img.user-photo {
   width: 70px; }
 
 /*# sourceMappingURL=default.css.map */
+
+#info-panel{
+  border-radius: 5px;
+  margin: 3%;
+  margin-left: 1.5%;
+  padding: 1%;
+  padding-left: 3%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+#info-panel h4, h5,h3{
+  color: #FFFFE7;
+  font-family: Roboto-Bold;
+}
+
+input, textarea{
+  font-family: Arial;
+  color: black;
+}
+
+#smaller{
+  font-family: roboto;
+  color: white;
+  font-size: 14px;
+  vertical-align: top;
+}

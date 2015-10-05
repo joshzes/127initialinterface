@@ -2,46 +2,54 @@
 <html>
 
 	<head>
-		<title> Join Group </title>
+		<title> Create Group </title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/dark-default.css">
-		<link rel="stylesheet" type="text/css" href="css/interface.css">
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" type="text/css" href="css/create-group.css">
 	</head>
 
 	<body>
 	<!-- header -->
 		<header class="wrapping-panel">
 			<div class="container">
-				<div class="col-md-12" id="nav-bar">
-					<span clas="col-md-6" id="page-title">
-						<a href="groups.html" title="Home">
-						<span class="glyphicon glyphicon-book"></span>
-						lorem Ipsum</a>
-					</span>
-					<span class="col-md-6" id="option">
-						<button type="button" class="btn btn-default btn-md">Username</button>
-						<button type="button" class="btn btn-default btn-md">Logout</button>	
-					</span>
-				</div>
+				<span clas="col-md-6" id="page-title">
+					<a href="interface.html" title="Home">
+					<span class="glyphicon glyphicon-book"></span>
+					lorem Ipsum</a>
+				</span>
+				<span class="col-md-6 text-right" id="option">
+					<span id="display-name">Joshze Rica Esguerra</span>
+					<button type="button" class="btn btn-default btn-md">Logout</button>
+				</span>
 			</div>
 		</header>
 		<div class="wrapping-panel">
 		<div class="container">
-			<div id="side-panel">
-				<h2>GROUP NAME</h2>
+			<div class="col-md-3" id="info-panel">
+				<h4>Carrasco, Angelica</h4>
+				<h5>CAS | BS Computer Science</h5>
+				<h5>Student Number: 2013-98064</h5>
 				<hr>
-				<sub>Group Description</sub>
-				<hr>
-				<a href="" title="View Students">View Students</a><br />
-			</div>
-			<div id="post-panel">
-				<h3>Join Group</h3>
+				<h5><a href="join-group.html">Join Group</a></h5>
+				<h5><a href="settings.html">Account Settings</a></h5>
+				<br />
+				</div>
+			<div class="col-md-8" id="post-panel">
+				<h2>JOIN Group</h2>
+				<p> <span id="smaller">Enter below the code given by your teacher.</span> </p>
 				<hr>
 				<form>
-					<br />Enter Code Below:<br />
-					<input type="text" name="code">
-					<button type="submit" name="join-group" formaction="group.html">JOIN</button>
+					<div class="table-responsive">
+  					<table class="table">
+					<tr>
+						<td>Course Code</td>
+						<td><input type="text" name="code"></td>
+					</tr>
+					</table>
+					</div>
+					<br />
+					<button type="submit" name="create-group" formaction="group.html" class="btn btn-primary custom">JOIN</button>
 				</form>
 			</div>
 		</div>
